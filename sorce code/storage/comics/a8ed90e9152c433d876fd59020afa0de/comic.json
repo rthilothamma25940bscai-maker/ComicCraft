@@ -1,0 +1,64 @@
+{
+  "comic_id": "a8ed90e9152c433d876fd59020afa0de",
+  "title": "Mira and the A Brave Inventor Discovers A Tiny",
+  "created_at": "2026-09-23T06:00:00.889843Z",
+  "prompt": {
+    "story_prompt": "A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+    "character_name": "Mira",
+    "setting": "an enchanted forest",
+    "tone": "Adventurous",
+    "art_style": "Modern comic book",
+    "panel_count": 2
+  },
+  "panels": [
+    {
+      "panel_number": 1,
+      "title": "The First Sign",
+      "scene_description": "In an enchanted forest, Mira discovers an unexpected clue that makes an ordinary moment feel important. The atmosphere is adventurous, with clear visual continuity from the previous panel.",
+      "caption": "Panel 1 — The First Sign",
+      "narration": "It began with a simple idea: A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "This is only the beginning!"
+        }
+      ],
+      "image_prompt": "Modern comic book comic-book illustration, Adventurous mood, an enchanted forest. Mira, an expressive comic hero with a consistent silhouette, a teal jacket, amber scarf, dark trousers, and a small silver star badge. Keep the same face, clothing, colors, and proportions in every panel. Modern comic book style. Scene: In an enchanted forest, Mira discovers an unexpected clue that makes an ordinary moment feel important. The atmosphere is adventurous, with clear visual continuity from the previous panel. Dynamic composition, expressive pose, cinematic lighting, clean line work, rich colors, one coherent scene, no speech bubbles, no captions, no written words.",
+      "image_url": "/media/comics/a8ed90e9152c433d876fd59020afa0de/panels/panel-1.png",
+      "image_provider": "huggingface"
+    },
+    {
+      "panel_number": 2,
+      "title": "A Door Opens",
+      "scene_description": "In an enchanted forest, Mira follows the clue and accepts a surprising challenge. The atmosphere is adventurous, with clear visual continuity from the previous panel.",
+      "caption": "Panel 2 — A Door Opens",
+      "narration": "By trusting curiosity and courage, Mira brings the adventure to a satisfying close.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Every ending can become a new beginning."
+        }
+      ],
+      "image_prompt": "Modern comic book comic-book illustration, Adventurous mood, an enchanted forest. Mira, an expressive comic hero with a consistent silhouette, a teal jacket, amber scarf, dark trousers, and a small silver star badge. Keep the same face, clothing, colors, and proportions in every panel. Modern comic book style. Scene: In an enchanted forest, Mira follows the clue and accepts a surprising challenge. The atmosphere is adventurous, with clear visual continuity from the previous panel. Dynamic composition, expressive pose, cinematic lighting, clean line work, rich colors, one coherent scene, no speech bubbles, no captions, no written words.",
+      "image_url": "/media/comics/a8ed90e9152c433d876fd59020afa0de/panels/panel-2.png",
+      "image_provider": "placeholder"
+    }
+  ],
+  "pdf_url": "/download/a8ed90e9152c433d876fd59020afa0de",
+  "preview_url": "/comics/a8ed90e9152c433d876fd59020afa0de",
+  "provider_info": {
+    "text_provider": "demo",
+    "outline_model": "deterministic-demo-outline",
+    "story_model": "deterministic-demo-story",
+    "requested_image_provider": "huggingface",
+    "image_providers_used": [
+      "huggingface",
+      "placeholder"
+    ],
+    "used_fallback": true,
+    "warnings": [
+      "Gemini unavailable; Cloudflare fallback also failed; demo story used. Gemini: Gemini story generation failed: 1 validation error for ComicOutline\ncharacter_bible\n  Input should be a valid string [type=string_type, input_value={'name': 'Mira', 'traits'..., family-friendly tone'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type; Cloudflare: CF_ACCOUNT_ID and CF_API_TOKEN are required for Cloudflare story fallback.",
+      "Panel 2: huggingface failed; placeholder used (Hugging Face image generation failed: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/fast-sdxl' (Request ID: Root=1-6ab36ae0-3b22c7552802ae3e231e84d1;723c32a8-c038-4fa7-ab92-3b643defda2d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.)"
+    ]
+  }
+}

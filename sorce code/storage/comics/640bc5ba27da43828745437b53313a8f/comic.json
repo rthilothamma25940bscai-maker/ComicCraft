@@ -1,0 +1,62 @@
+{
+  "comic_id": "640bc5ba27da43828745437b53313a8f",
+  "title": "Mira and the A Brave Inventor Discovers A Tiny",
+  "created_at": "2026-09-25T06:21:36.704067Z",
+  "prompt": {
+    "story_prompt": "A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+    "character_name": "Mira",
+    "setting": "an enchanted forest",
+    "tone": "Adventurous",
+    "art_style": "Modern comic book",
+    "panel_count": 2
+  },
+  "panels": [
+    {
+      "panel_number": 1,
+      "title": "The First Sign",
+      "scene_description": "In an enchanted forest, Mira discovers an unexpected clue that makes an ordinary moment feel important. The atmosphere is adventurous, with clear visual continuity from the previous panel.",
+      "caption": "Panel 1 — The First Sign",
+      "narration": "It began with a simple idea: A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "This is only the beginning!"
+        }
+      ],
+      "image_prompt": "Modern comic book comic-book illustration, Adventurous mood, an enchanted forest. Mira, an expressive comic hero with a consistent silhouette, a teal jacket, amber scarf, dark trousers, and a small silver star badge. Keep the same face, clothing, colors, and proportions in every panel. Modern comic book style. Scene: In an enchanted forest, Mira discovers an unexpected clue that makes an ordinary moment feel important. The atmosphere is adventurous, with clear visual continuity from the previous panel. Dynamic composition, expressive pose, cinematic lighting, clean line work, rich colors, one coherent scene, no speech bubbles, no captions, no written words.",
+      "image_url": "/media/comics/640bc5ba27da43828745437b53313a8f/panels/panel-1.png",
+      "image_provider": "placeholder"
+    },
+    {
+      "panel_number": 2,
+      "title": "A Door Opens",
+      "scene_description": "In an enchanted forest, Mira follows the clue and accepts a surprising challenge. The atmosphere is adventurous, with clear visual continuity from the previous panel.",
+      "caption": "Panel 2 — A Door Opens",
+      "narration": "By trusting curiosity and courage, Mira brings the adventure to a satisfying close.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Every ending can become a new beginning."
+        }
+      ],
+      "image_prompt": "Modern comic book comic-book illustration, Adventurous mood, an enchanted forest. Mira, an expressive comic hero with a consistent silhouette, a teal jacket, amber scarf, dark trousers, and a small silver star badge. Keep the same face, clothing, colors, and proportions in every panel. Modern comic book style. Scene: In an enchanted forest, Mira follows the clue and accepts a surprising challenge. The atmosphere is adventurous, with clear visual continuity from the previous panel. Dynamic composition, expressive pose, cinematic lighting, clean line work, rich colors, one coherent scene, no speech bubbles, no captions, no written words.",
+      "image_url": "/media/comics/640bc5ba27da43828745437b53313a8f/panels/panel-2.png",
+      "image_provider": "placeholder"
+    }
+  ],
+  "pdf_url": "/download/640bc5ba27da43828745437b53313a8f",
+  "preview_url": "/comics/640bc5ba27da43828745437b53313a8f",
+  "provider_info": {
+    "text_provider": "demo",
+    "outline_model": "deterministic-demo-outline",
+    "story_model": "deterministic-demo-story",
+    "requested_image_provider": "placeholder",
+    "image_providers_used": [
+      "placeholder"
+    ],
+    "used_fallback": true,
+    "warnings": [
+      "Gemini unavailable; Cloudflare fallback also failed; demo story used. Gemini: Gemini outline generation failed after trying gemini-3.5-flash-lite, gemini-flash-lite-latest, gemini-3.5-flash: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}; Cloudflare: CF_ACCOUNT_ID and CF_API_TOKEN are required for Cloudflare story fallback."
+    ]
+  }
+}

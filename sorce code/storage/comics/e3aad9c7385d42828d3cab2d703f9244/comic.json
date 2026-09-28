@@ -1,0 +1,63 @@
+{
+  "comic_id": "e3aad9c7385d42828d3cab2d703f9244",
+  "title": "Mira and the Tiny Dragon",
+  "created_at": "2026-09-23T10:35:39.048858Z",
+  "prompt": {
+    "story_prompt": "A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+    "character_name": "Mira",
+    "setting": "an enchanted forest",
+    "tone": "Adventurous",
+    "art_style": "Modern comic book",
+    "panel_count": 2
+  },
+  "panels": [
+    {
+      "panel_number": 1,
+      "title": "The Discovery",
+      "scene_description": "Mira carefully opens an ancient, moss-dusted tome set among the wooden shelves of a library carved directly into ancient tree roots. Nestled inside the hollowed pages is a tiny, glowing dragon with shimmering amber scales, blinking its large eyes up at her.",
+      "caption": "The Whispering Archives.",
+      "narration": "In an enchanted forest library forgotten by time, Mira went searching for lost blueprints and discovered a living spark.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Shh, it's okay little one. You're far from home, aren't you?"
+        }
+      ],
+      "image_prompt": "Modern comic book art style, vibrant colors, clean line work, family-friendly. A young, brave inventor named Mira with curly brown hair tied in pigtails, wearing round safety goggles on her forehead, a tool belt filled with gadgets, and a teal tunic, gently opens an ancient book. Inside the hollowed-out pages, a tiny glowing dragon with amber scales gazes up at her in a cozy, tree-root library surrounded by mystical scrolls and soft lanterns. No text, no speech bubbles.",
+      "image_url": "/media/comics/e3aad9c7385d42828d3cab2d703f9244/panels/panel-1.png",
+      "image_provider": "huggingface"
+    },
+    {
+      "panel_number": 2,
+      "title": "The Journey Home",
+      "scene_description": "Mira stands at the base of an immense, bioluminescent willow tree deep within the magical woods. The tiny dragon flutters in the air beside her shoulder, sparkling with light as it points toward a cozy branch where its family awaits.",
+      "caption": "The Heart of the Grove.",
+      "narration": "Guided by starlight and ingenuity, the brave inventor completes her most heartwarming delivery yet.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "There they are! Go on, your family is waiting!"
+        }
+      ],
+      "image_prompt": "Modern comic book art style, vibrant colors, clean line work, family-friendly. A young, brave inventor named Mira with curly brown hair tied in pigtails, wearing round safety goggles on her forehead, a tool belt filled with gadgets, and a teal tunic, smiles happily and points toward the branches of a colossal glowing magical tree in an enchanted forest, as a tiny glowing dragon flutters joyfully beside her shoulder. No text, no speech bubbles.",
+      "image_url": "/media/comics/e3aad9c7385d42828d3cab2d703f9244/panels/panel-2.png",
+      "image_provider": "placeholder"
+    }
+  ],
+  "pdf_url": "/download/e3aad9c7385d42828d3cab2d703f9244",
+  "preview_url": "/comics/e3aad9c7385d42828d3cab2d703f9244",
+  "provider_info": {
+    "text_provider": "gemini",
+    "outline_model": "gemini-3.5-flash-lite",
+    "story_model": "gemini-flash-latest",
+    "requested_image_provider": "huggingface",
+    "image_providers_used": [
+      "huggingface",
+      "placeholder"
+    ],
+    "used_fallback": true,
+    "warnings": [
+      "Panel 2: huggingface failed; placeholder used (Hugging Face image generation failed: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/fast-sdxl' (Request ID: Root=1-6ab3ab7a-1b2deec411db660049929c54;292ec56f-3964-4a40-b9e6-2bdb5dd6efa7)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.)"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "comic_id": "16e0223fcd794ecb9028725cb6e54933",
+  "title": "Mira and the Library Dragon",
+  "created_at": "2026-09-23T05:20:53.250729Z",
+  "prompt": {
+    "story_prompt": "A brave inventor discovers a tiny dragon hiding inside an old library and must help it find its way home.",
+    "character_name": "Mira",
+    "setting": "an enchanted evening",
+    "tone": "Adventurous",
+    "art_style": "Cinematic realistic",
+    "panel_count": 2
+  },
+  "panels": [
+    {
+      "panel_number": 1,
+      "title": "The Discovery",
+      "scene_description": "Mira discovers a tiny, glowing dragon hiding behind ancient books in the library during an enchanted evening.",
+      "caption": "The Grand Archives, dusk.",
+      "narration": "Searching for a misplaced gear, Mira found something far more precious than clockwork.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Well, you're certainly not a manual on hydro-dynamics..."
+        }
+      ],
+      "image_prompt": "Cinematic realistic art style. Mira, a brave young female inventor with messy brown hair tied in a messy bun, wearing utility goggles on her forehead and a tool belt around her waist, peers behind dusty, ancient books on a wooden library shelf. A tiny, glowing dragon with shimmering golden scales sits curled up between the books, casting a warm light on her amazed face. The library is filled with floating dust motes and warm candlelight in the enchanted evening.",
+      "image_url": "/media/comics/16e0223fcd794ecb9028725cb6e54933/panels/panel-1.png",
+      "image_provider": "huggingface"
+    },
+    {
+      "panel_number": 2,
+      "title": "The Journey Home",
+      "scene_description": "Mira guides the tiny dragon out of the library window toward its starry home.",
+      "caption": "Moments later...",
+      "narration": "The constellations aligned, signaling it was time for the little traveler to return.",
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "There you go, little friend. Your sky is waiting."
+        }
+      ],
+      "image_prompt": "Cinematic realistic art style. Mira, a brave young female inventor with messy brown hair tied in a messy bun, wearing utility goggles on her forehead and a tool belt around her waist, stands by a tall, open library window. She gently coaxes a tiny, glowing dragon to take flight from her hands into the enchanted evening sky. The background is filled with swirling magical aurora lights and twinkling stars.",
+      "image_url": "/media/comics/16e0223fcd794ecb9028725cb6e54933/panels/panel-2.png",
+      "image_provider": "placeholder"
+    }
+  ],
+  "pdf_url": "/download/16e0223fcd794ecb9028725cb6e54933",
+  "preview_url": "/comics/16e0223fcd794ecb9028725cb6e54933",
+  "provider_info": {
+    "text_provider": "gemini",
+    "outline_model": "gemini-3.5-flash-lite",
+    "story_model": "gemini-3.5-flash",
+    "requested_image_provider": "huggingface",
+    "image_providers_used": [
+      "huggingface",
+      "placeholder"
+    ],
+    "used_fallback": true,
+    "warnings": [
+      "Panel 2: huggingface failed; placeholder used (Hugging Face image generation failed: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/fast-sdxl' (Request ID: Root=1-6ab361b4-06367e2a56db86ac78d989a4;d3706575-6169-47d2-adba-6fc0122e966d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.)"
+    ]
+  }
+}
